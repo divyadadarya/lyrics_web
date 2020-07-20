@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lyrics Generator</title>
+	<link rel="stylesheet" type="text/css" href="/static/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>LYRICS GENERATOR</header>
+	<form method="post" enctype="multipart/form-data">
+	<div class="container" >
+		<label for="Band">Choose a Band:</label>
+		
+		<SELECT name = "Band">
+			<option class= "option" value="Please Select" name="Please Select" id="Please Select">*Please Select*</option>
+			<option class="option" value = "Twenty-One Pilots" name="Twenty-One Pilots">Twenty-One Pilots</option>
+			<option class= "option" value = "Coldplay" name="Coldplay">Coldplay</option>
+		</SELECT><br>
+		<input id="seed" type="text" name="seed" placeholder="Enter a sentence"><br>
+		<input id="number" type="text" name="number" placeholder="Enter number of words"><br>
+		<button type="submit">Predict</button>
+		
+	</div>
+	</form> 
+	<p>{{answer}}</p>
+	<footer class="zone">Made with     &hearts;     by Shubhendu Singh <br> Designed by Divya Dadarya <br> </footer>
+</body>
+</html>

@@ -1,0 +1,118 @@
+body{
+    margin: auto 0; /*sometimes brower has some kind of css file attach to it, so to remove white spaces we write this and now everything is just filled*/ 
+}
+
+header{
+    font: 600 3.5em 'Raleway', sans-serif;
+    color: rgba(0,0,0,1.0);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+    background-color: rgba(0, 0, 0, 0.0); 
+    margin-top: 30px;
+    /*font-size: 5em;*/
+}
+
+header:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+.zone {
+    /*padding: 30px 50px;
+    margin: 40px 60;*/
+    cursor:pointer;
+    /*display: inline-block;*/
+    color:#FFF;
+    /*font-size:2em;*/
+    margin-top: 4em;
+    cursor: text;
+    /*border-radius:4px;
+    border:1px solid #bbb;
+    transition: all 0.3s linear;*/
+}
+
+/*.zone:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}*/
+
+.container{
+     background-color: rgba(213, 115, 133, 0.5);
+     padding: 2em;
+     border-radius: 4px;
+     border-color: #BB596B;
+     border-width: 20px;
+}
+
+body{
+    text-align: center;
+    background: linear-gradient(to right, rgb(255, 196, 163), rgb(249, 109, 128));
+}
+
+div{
+	display: inline-grid;
+	align-items: start;
+	font-size: 2rem;
+	padding: 50px;
+    margin-top: 2em;
+	/*border: 10px groove #660066;*/
+	/*border-radius: 20px;*/
+	background-color: #c94c4c;
+}
+
+label, select, button, input{
+    font-size: 25px;
+}
+
+label{
+    font:3.5em 'Raleway', sans-serif;
+    /*color: rgba(,0,0,1.0);*/
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-bottom: 0.5em;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+select{
+	text-align-last: center;
+    border-color: rgba(0,0,0,0.4);
+    border-width: 0.1em;
+}
+
+input{
+    border-color: #f0f0f0;
+    border-width: medium;
+    border-style: inset;
+}
+
+button{
+    padding: 14px 40px;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+}
+
+button:hover{
+     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+     background-image: linear-gradient(to right,  #99d8d0 , #b7efcd);
+}
+
+p{
+    font-family: 'Rowdies', cursive;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+footer{
+    font:3.5em 'Raleway', sans-serif;
+	display: block;
+    text-align: right;
+    margin-right: 10px;
+    font-size: 22px;
+}
